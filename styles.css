@@ -20,11 +20,19 @@ html {
 .nav-bar ul {
   display: flex;
   list-style: none;
-  margin-right: 20%;
 }
 
 .nav-bar ul li {
-  margin: 0 20px;
+  margin: 0 15px;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: rgba(210, 207, 207, 0.845);
+  margin: 0px;
+}
+.nav-bar ul li a:hover {
+  color: white;
 }
 
 .primary-button {
@@ -37,4 +45,9 @@ html {
   border-radius: 5px;
   font-weight: bold;
   font-size: 1rem;
+}
+
+.primary-button:hover {
+  background-color: rgb(193, 212, 246);
+  cursor: pointer;
 }
