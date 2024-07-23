@@ -6,10 +6,6 @@
   background-color: #2d53eb;
 }
 
-html {
-  font-size: 16px;
-}
-
 /* Header */
 
 #header {
@@ -50,4 +46,29 @@ html {
 .primary-button:hover {
   background-color: rgb(193, 212, 246);
   cursor: pointer;
+}
+
+/* About us section */
+
+#header-section {
+  display: flex;
+  margin: 30px 0px;
+}
+
+.header-section-desc {
+  margin-top: 4%;
+  color: white;
+}
+
+.header-section-desc h1 {
+  font-size: 50px;
+}
+
+.header-section-desc p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header-section-desc button {
+  width: 45%;
 }
