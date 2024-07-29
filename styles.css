@@ -147,3 +147,39 @@
   font-size: 18px;
   line-height: 28px;
 }
+
+/* Contact Us */
+
+#contact-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#contact-us img {
+  width: 50%;
+  height: 100%;
+}
+
+.contact-us-desc,
+.contact-us-desc h2 {
+  background-color: white;
+  font-size: 2rem;
+}
+
+.contact-us-desc button {
+  background-color: #2d53eb;
+  color: white;
+  width: 45%;
+  transition: all ease-in-out 0.4s;
+}
+
+.contact-us-desc button:hover {
+  border: #2d53eb 2px solid;
+  color: #2d53eb;
+  background-color: white;
+}
