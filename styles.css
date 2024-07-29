@@ -105,3 +105,45 @@
 .who-are-we-desc button {
   width: 45%;
 }
+
+/* Services Section */
+#services-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2%;
+  color: white;
+}
+
+.services-header {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services img {
+  width: 350px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(243, 235, 235, 0.1),
+    0 1px 3px rgba(242, 236, 236, 0.8);
+}
+
+.services div {
+  margin: 20px 0px;
+}
+
+.services h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.services p {
+  font-size: 18px;
+  line-height: 28px;
+}
