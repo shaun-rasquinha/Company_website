@@ -183,3 +183,41 @@
   color: #2d53eb;
   background-color: white;
 }
+
+/* Footer */
+
+#footer {
+  display: flex;
+  margin-top: 8%;
+  font-size: 1.25rem;
+  color: white;
+}
+
+.business-hours p {
+  line-height: 30px;
+}
+
+.copyright-section {
+  display: flex;
+  color: white;
+}
+
+.icons {
+  margin-left: 13%;
+}
+
+.icons a {
+  font-size: 1.5rem;
+  margin: 10px;
+  transition: font-size 0.5s ease-in-out;
+}
+
+.icons a i {
+  color: white;
+  margin: 5px;
+  transition: color 0.5s ease;
+}
+
+.icons i:hover {
+  color: black;
+}
