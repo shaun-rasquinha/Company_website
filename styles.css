@@ -221,3 +221,61 @@
 .icons i:hover {
   color: black;
 }
+
+/* Media Queries */
+@media only screen and (max-width: 780px) {
+  #header-section,
+  #who-are-we,
+  .services {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav-bar ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .primary-button {
+    width: 80%;
+    font-size: 1rem;
+  }
+
+  .services img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .contact-us-desc h2 {
+    font-size: 1.25rem;
+  }
+
+  .contact-us-desc button {
+    width: 70%;
+  }
+
+  #footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icons {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #header-section h1,
+  .services h3,
+  .contact-us-desc h2 {
+    font-size: 1.5rem;
+  }
+
+  .services div,
+  #contact-us img,
+  .primary-button {
+    width: 100%;
+  }
+}
